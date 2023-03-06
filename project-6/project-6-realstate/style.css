@@ -1,0 +1,403 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #e0dada;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+}
+/* removing default styling of li items */
+li{
+    list-style: none;
+}
+/* removing the default decoration of a tags */
+a{
+    text-decoration: none;
+}
+/*  default buttom design */
+button{
+    background-color: #1212c0;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 25px;
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+}
+body{
+    background-color: #f6f8fa;
+}
+
+
+header{
+   
+    background-image: url(/image/mainBackground.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 125vh;
+    position: relative;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    margin: 0px 8%;
+    background: transparent;
+    position: relative;
+    flex-wrap: wrap;
+}
+nav img{
+    height: 200px;
+    width: 200px;
+    background: transparent;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40%;
+    background: transparent;
+    font-size: 30px;
+    font-weight: 900;
+    position: relative;
+}
+.nav-list li,
+.nav-list li a{
+    background: transparent;
+    color: #ffffff;
+}
+hr{
+    width: 95%;
+    margin-bottom: 50px;
+    margin-left: 2.5%;
+    height:  2px;
+
+}
+.HEADER-CONTENT{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 0 8%;
+    padding: 0 20px;
+    margin-top: 150px;
+    background: transparent;
+}
+.HEADER-CONTENT h1{
+   background: transparent;
+   font-size: 90px;
+   font-weight: bolder;
+}
+.HEADER-CONTENT p{
+    background: transparent;
+    font-size: 35px;
+    font-weight: 700;
+}
+.HEADER-CONTENT button {
+    width: fit-content;
+    padding: 15px 35px;
+    font-weight: 400;
+    
+}
+.multiple-logo{
+     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #fff;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: -100px;
+    width: 70%;
+    height: 200px;
+    margin-left: 15%;
+    border-radius: 20px;
+}
+.multiple-logo img{
+    background: transparent;
+    scale: 1;
+}
+.prdct-sctn-hdr{
+    padding: 30px;
+    margin-left: 40%;
+    background: transparent;
+}
+.prdct-sctn-hdr h1{
+    background: transparent;
+    font-size: 110px;
+    font-weight: 900;
+    color: black;
+    margin-bottom: 30px;
+}
+.products-section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    margin-top: 50px;
+    gap: 10px;
+    position: relative;
+}
+.product-card {
+    flex-basis: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background: transparent;
+  }
+  .products-section div:nth-child(2){
+    margin-top: 50px;
+  }
+  .products-section div:nth-child(3){
+    margin-top: 120px;
+  }
+  .products-section div:nth-child(4){
+    margin-top: 190px;
+  }
+  .products-section div:nth-child(5){
+    margin-top: 120px;
+  }
+  .products-section div:nth-child(6){
+    margin-top: 50px;
+  }
+  .products-section div:nth-child(7){
+    margin-top: 50px;
+  }
+  .products-section div:nth-child(8){
+    margin-top: 120px;
+  }
+  .products-section div:nth-child(9){
+    margin-top: 190px;
+  }
+  /*  product image design */
+  .product-card img{
+    height: 30vh;
+    width: 100%;
+    border-radius: 20px;
+   zoom: initials;
+   background: transparent;
+  }
+  /*  add to card design */
+  .card-desc-bttn{
+ 
+        width: 60%;
+        height: 121px;
+        border-radius: 20px;
+        background: #ffffff;
+        box-shadow: 0px 4px 120px rgba(58, 86, 78, 0.2);
+        position: absolute;
+        bottom: -70px;
+        padding: 15px 10%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between
+        
+  }
+  .card-desc-bttn button{
+       font-weight: 900;
+       font-size: 35px;
+       width: 190px;
+       height: 80px;
+  }
+  .card-desc{
+    display: flex;
+
+    flex-direction: column;
+    gap: 15px;
+    background: transparent;
+  }
+  .card-desc h3{
+    color: black;
+    font-size: 50px;
+    background: transparent;
+    font-weight: 900;
+  }
+  .card-desc p{
+    color: #1212c0;
+    font-size: 30px;
+    font-weight: 700;
+    background-color: transparent;
+  }
+  /* design for first featured product */
+  .first-featured-product{
+    display: flex;
+    flex-direction: row;
+    gap:20vw;
+    margin-top: 10vh;
+    background: transparent;
+}
+
+
+.first-featured-product div:first-child img:first-child {
+    position: absolute;
+   /* z-index: -1; */
+    width: 1000px;
+    height: 600px;
+     background: transparent;
+}
+.first-featured-product div:first-child img:last-child {
+    position: relative;
+    margin-left: 180px;
+    width: 540px;
+    height: 540px;
+    border-radius: 51px;
+    bottom: 75px;
+    left: 110px;
+    background: transparent;
+  }
+  .first-featured-product-left{
+    padding-left: 300px;
+    background: transparent;
+  }
+  .first-featured-product-right{
+    background: transparent;
+  }
+  .first-featured-product-right h1{
+    margin: 20px 0px;
+    font-size: 70px;
+    font-weight: 900;
+    color: black;
+    background: transparent;
+  }
+  .first-featured-product-right p{
+    margin: 20px 0px;
+    font-size: 30px;
+    font-weight: 600;
+    color: black;
+    background: transparent;
+  }
+/*  design of second featured products */
+.second-featured-product{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20vwSS;
+    background: transparent;
+}
+.second-featured-product-left{
+    margin: 100px 350px ;
+    background: transparent;
+}
+.second-featured-product-left h1{
+    margin: 20px 0px;
+    font-size: 70px;
+    font-weight: 900;
+    color: black;
+    background: transparent;
+}
+.second-featured-product-left p {
+    margin: 20px 0px;
+    font-size: 30px;
+    font-weight: 600;
+    color: black;
+    background: transparent;
+}
+  
+.second-featured-product-right img:first-child{
+    position: relative;
+    margin-right: -690px;
+    z-index: 2;
+    width: 540px;
+    height: 540px;
+    border-radius: 51px;
+    bottom: 75px;
+    left: 110px;
+    background: transparent;
+
+}
+.second-featured-product-right img:last-child{
+    position: absolute;
+    z-index: 1;
+     width: 1000px;
+     height: 600px;
+      background: transparent;
+}
+.news-letter{
+    margin: 50px 7vw;
+    padding: 50px;
+    background-color: #4343d7;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.news-letter h1{
+    margin: 30px;
+    font-size: 100px;
+   
+    background: transparent;
+    
+}
+.news-letter p{
+    margin: 30px;
+    font-size: 30px;
+    background: transparent;
+}
+.news-letter form{
+    display: flex;
+    flex-direction: row;
+    background: transparent;
+}
+.news-letter form div
+{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(54, 54, 128) ;
+    padding: 10px 20px;
+    border-radius: 10px;margin-right: 10px;
+
+}
+.news-letter form div img {
+    background: transparent;
+}
+.news-letter form div input{
+    border: none;
+    background: transparent;
+}
+footer{
+  display: flex ;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 8%;
+  background: transparent;
+  padding: 100px;
+
+}
+.footer-content,
+.footer-content ul,
+.footer-content ul li,
+.footer-content p{
+  color: #000000;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  background: transparent;
+  font-size: larger;
+  font-weight: bold;
+}
+.footer-content h3{
+  font-size: 40px;
+  font-weight: bolder;
+  background: transparent;
+  color: #000000;
+}
+.ftr1{
+  margin-left: 8%;
+}
+.ftr1 img{
+  scale: 1;
+  background: transparent;
+}
+.social-media-footer,
+.social-media-footer img{
+
+
+  background: transparent;
+}

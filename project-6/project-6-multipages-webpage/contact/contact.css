@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0%;
+    outline: 0;
+    box-sizing: border-box;
+}
+body {
+    max-width: 100vw;
+    background-color: #f0f4f5;
+    overflow: hidden;
+    margin: auto;}
+
+
+/* removing default style  */
+li{
+    list-style: none;
+
+}
+a {
+   color: inherit;
+   text-decoration: none;
+}
+a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+a:visited{
+    color: maroon;
+}
+/* design for navigation bar */
+nav{
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 8%;
+}
+/* design for navgation list */
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+    font-size: x-large;}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 18vw;
+    padding:  20px 8px;
+    margin: 20vh 40vw;
+    background-color: white;
+    box-shadow: 2px  2px rgba(131, 131, 131, 0.255) , inset 2px 2px rgba(131, 131, 131, 0.255) ;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+}
+main div{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+   
+}
+div label{
+    font-size: 18px;
+    font-weight: 600;
+
+}
+div input,
+div textarea{
+    border: none;
+    border-radius: 6px;
+    background: #f2f1f1;
+    padding: 4px 10px;
+}
+button{
+    background:  rgb(26, 135, 69);
+    width: 72%;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 8px;
+}
